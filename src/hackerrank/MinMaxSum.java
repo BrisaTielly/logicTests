@@ -6,14 +6,13 @@ import java.util.List;
 public class MinMaxSum {
 
     public static void miniMaxSum(List<Integer> arr) {
-        int sum = 0;
-        int max = arr.size() -1 ;
-        for(Integer x: arr) {
+        long sum = 0;
+        for (Integer x : arr) {
             sum += x;
         }
-
         Collections.sort(arr);
-        System.out.printf("%d %d", sum - arr.get(max),sum - arr.get(0) );
-
+        long minSum = sum - arr.get(arr.size() - 1);
+        long maxSum = sum - arr.get(0);
+        System.out.printf("%d %d%n", minSum, maxSum);
     }
 }
