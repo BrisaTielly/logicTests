@@ -1,5 +1,12 @@
 package A_Lessons.A_interfaces_abstractClasses;
 
 public class WaterType extends Pokemon {
-    //Obrigatório instanciar o method abstráto do pokemon
+
+    public WaterType() {
+        super();
+    }
+
+    public WaterType(int friendShip, int level, String name, String tier) {
+        super(friendShip, level, name, tier);
+    }
 }
