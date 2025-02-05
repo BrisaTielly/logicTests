@@ -1,4 +1,4 @@
-package hackerrank;
+package B_hackerrank;
 
 public class TimeFormat {
     public static String timeConversion(String s) {

@@ -1,4 +1,4 @@
-package hackerrank;
+package B_hackerrank;
 
 import java.util.HashSet;
 import java.util.List;
